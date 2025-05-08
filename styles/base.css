@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    color: #1a1a1a;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #194769;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .highlight {
+    color: #f9d342;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  nav a {
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Main content layout using Grid */
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  h3 {
+    text-align: center;
+    text-decoration-line:underline;
+  }
+  
+  /* Card styling */
+  .card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #194769;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  #lastModified {
+    color: #f9d342;
+  }
