@@ -45,6 +45,17 @@ body {
     padding: 1rem;
   }
 
+  .highlight {
+    background-color: aquamarine;
+  }
+
+  h2 {
+    background-color: #194769;
+    padding: 16px;
+    color: white;
+    text-align: center;
+  }
+
   h3 {
     text-align: center;
     text-decoration-line:underline;
