@@ -45,6 +45,19 @@ body {
     padding: 1rem;
   }
 
+  main img {
+     width: 100px;
+     height: 100px; 
+     border: 1px solid black;
+     padding: 2px;
+     box-shadow: 0030px gray;
+     float: right;
+  }
+
+  main h3 img {
+    float: left;
+  }
+
   .highlight {
     background-color: aquamarine;
   }
